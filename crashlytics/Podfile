@@ -2,7 +2,8 @@
 use_frameworks!
 platform :ios, '10.0'
 
-pod 'Firebase/Crashlytics'
+pod 'Firebase/Analytics', '~> 6.34.0'
+pod 'Firebase/Crashlytics', '~> 6.34.0'
 
 target 'CrashlyticsExample'  do
 end
